@@ -32,14 +32,12 @@ s,
 samp,
 small,
 strike,
-strong,
 sub,
 sup,
 tt,
 var,
 b,
 u,
-i,
 center,
 dl,
 dt,
@@ -70,7 +68,7 @@ footer,
 header,
 hgroup,
 menu,
-nav,
+
 output,
 ruby,
 section,
@@ -88,29 +86,48 @@ video {
    vertical-align: baseline;
 }
 
+/* ---------------------------------Home page------------------------------------ */
 body {
    background-color: black;
-   
+
 }
 
+header {
+   background-color: black;
+   border: solid 1px gold;
+   width: 100%;
+   position: fixed;
 
 
-
+}
 
 nav {
    display: flex;
    gap: 30px;
-   background-color: black;
+
    align-items: center;
+   max-width: 1200px;
    padding: 10px;
+
 }
 
-nav .menu:hover{
+
+
+nav .menu:hover {
    transform: scale(1.1);
    color: gold;
-     
-  }
-  
+
+}
+
+.select {
+
+   color: gold;
+   font-size: 18px;
+
+}
+
+
+
 
 nav img {
 
@@ -140,7 +157,7 @@ nav a {
    background-color: white;
    display: block;
    margin: 0 auto;
-   width: 1800px;
+   max-width: 1600px;
 
 }
 
@@ -149,12 +166,16 @@ nav a {
 
 }
 
-#opening h1 {
+.titulo-principal {
+   font-family: fantasy;
    padding-top: 20px;
    text-align: center;
    font-size: 40px;
-   font-weight: bold;
+
+
 }
+
+
 
 
 
@@ -168,12 +189,12 @@ nav a {
 }
 
 #intro {
-margin: 0 auto;
-padding-bottom: 40px;
+   margin: 0 auto;
+   padding-bottom: 40px;
 
 }
 
-#intro h2 {
+h2 {
    padding-top: 20px;
    text-align: center;
    font-size: 40px;
@@ -185,32 +206,42 @@ padding-bottom: 40px;
    margin: 0 auto;
    width: 1000px;
    font-size: 20px;
+   text-align: justify;
 }
 
-#intro p span {
+.primeira-letra {
    font-size: 40px;
    font-weight: bold;
 }
 
 footer {
+
    display: flex;
    align-items: center;
+   justify-content: center;
    background-color: #1a171a;
-
+   width: 100%;
    height: 100px;
    font-weight: bold;
    color: white;
 
-}
 
-footer p {
-   padding-left: 30px;
-}
-
-footer div {
-   padding-left: 600px;
 
 }
+
+.fabricantes {
+   margin-right: 20px;
+
+}
+
+.direitos-autorais {
+
+   text-align: left;
+   margin-left: 10px;
+   margin-right: 400px;
+
+}
+
 
 footer img {
    width: 80px;
@@ -221,5 +252,449 @@ footer .esrvImage {
    width: 280px;
 }
 
+footer .direitos {
+   margin-right: 20px;
+}
+
+
+
+
+/* -----------------------------------História--------------------------------- */
+
+#historia {
+   background-color: black;
+}
+
+.img-container {
+   background-color: black;
+}
+
+.imagem-introducao {
+   height: 600px;
+   max-width: 1700px;
+   width: 100%;
+
+   display: block;
+   margin: 0 auto;
+
+
+}
+
+.titulo-principal-historia {
+   color: aliceblue;
+   background-color: black;
+   font-family: fantasy;
+   padding-top: 20px;
+   text-align: center;
+   padding-bottom: 30px;
+   font-size: 40px;
+
+
+}
+
+
+.introducao-historia,
+.wizards-of-the-coast,
+.richard-garfield,
+.o-amanhecer-de-magic,
+.bolha-jogos-carta,
+.torneios {
+   color: aliceblue;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+
+.WOTC-titulo,
+.richard_garfield-titulo,
+.amanhecer-titulo,
+.bolha-titulo,
+.torneio-titulo {
+   margin-top: 30px;
+
+}
+
+.WOTC-imagem,
+.richard_garfield-imagem,
+.mtg-backCard-imagem,
+.tcgs-imagem,
+.torneios-imagem {
+   max-width: 800px;
+   height: 400px;
+   display: block;
+   margin: 30px auto 0;
+}
+
+.texto-intro-historia,
+.texto-WOTC,
+.texto-richard_garfield,
+.texto-o_amanhecer_de_magic,
+.texto-bolha,
+.texto-torneios
+ {
+   margin-top: 30px;
+   font-size: 20px;
+   text-align: justify;
+}
+
+.texto-torneios {
+   margin-bottom: 50px;
+}
+
+.wizards-of-the-coast {
+   color: aliceblue;
+
+}
+
+
+
+
+
+.richard_garfield-imagem,
+.tcgs-imagem,
+.torneios-imagem {
+   border: 5px solid white;
+   border-radius: 5px;
+}
+
+/* --------------------------------------Como jogar------------------- */
+
+
+.imagem-intro-como-jogar {
+   height: 600px;
+   width: 100%;
+
+
+   display: block;
+   margin: 0 auto;
+
+
+}
+
+.imagem-como-jogar {
+
+   height: 600px;
+   width: 100%;
+   max-width: 100%;
+   display: block;
+   margin: 0 auto;
+
+
+}
+
+.conteiner-imagens {
+   display: flex;
+   justify-content: space-around;
+   gap: 30px;
+}
+
+.titulo-principal-comoJogar {
+   color: aliceblue;
+   background-color: rgb(14, 0, 26);
+   font-family: fantasy;
+   padding-top: 20px;
+   text-align: center;
+   padding-bottom: 30px;
+   font-size: 60px;
+
+
+}
+
+
+.objetivo {
+   color: aliceblue;
+   max-width: 1200px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.texto-objetivo {
+   margin-top: 30px;
+   font-size: 20px;
+   text-align: justify;
+}
+
+.titulo-lista {
+   font-size: 20px;
+   color: gold;
+}
+
+.descricao-lista {
+   margin-bottom: 20px;
+   text-align: justify;
+   line-height: 25px;
+}
+
+.imagem-mamba,
+.imagem-druida-capote,
+.card-anjo-serra {
+   display: block;
+   margin: 30px auto;
+   border: 5px solid white;
+   border-radius: 5px;
+}
+
+
+.imagens-conteiner {
+
+   margin-top: 30px;
+   display: flex;
+   justify-content: center;
+   gap: 120px;
+}
+
+.imagens-conteiner img {
+   border: 5px solid white;
+   border-radius: 15px;
+}
+
+h2.titulo-objetivo,
+.titulo-anatomia,
+.regras-basicas {
+   font-size: 50px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+
+}
+
+.regras {
+   color: rgba(0, 162, 255, 0.87);
+   margin-top: 50px;
+}
+
+.imagem-simbolo-virar {
+   width: 15px;
+   height: 15px;
+}
+
+.conteiner-imagem-terrenos {
+   display: flex;
+   max-width: 1200px;
+   width: 100%;
+   justify-content: center;
+   gap: 20px;
+}
+
+.conteiner-imagem-terrenos img {
+   width: 200px;
+   height: 300px;
+   display: block;
+   margin: 30px auto;
+   border: 5px solid white;
+   border-radius: 15px;
+}
+
+
+
+.imagem-custo {
+   height: 30px;
+}
+
+.video-carol {
+   display: block;
+   margin: 10px auto 100px;
+   max-width: 800px;
+   border: 4px solid rgba(0, 162, 255, 0.87);
+   border-radius: 4px;
+}
+
+
+.conteiner-magica-feitico {
+   display: flex;
+   max-width: 1200px;
+   width: 100%;
+   justify-content: center;
+
+}
+
+.conteiner-magica-feitico img {
+   display: block;
+   width: 270px;
+   height: 370px;
+   margin: 30px auto;
+   border: 5px solid white;
+   border-radius: 5px;
+}
+
+
+/* --------------------------------------Anatomia------------------- */
+
+.imagem-introducao-anatomia {
+   width: 100%;
+   height: 650px;
+
+}
+
+.titulo-principal-anatomia,
+.titulo-principal-filosofia {
+   color: aliceblue;
+   width: 100%;
+   background-color: rgb(14, 0, 26);
+   font-family: fantasy;
+   padding-top: 20px;
+   text-align: center;
+   padding-bottom: 30px;
+   font-size: 60px;
+
+
+
+}
+
+.titulo-anatomia {
+   font-size: 50px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+
+}
+
+.anatomia {
+   color: aliceblue;
+   max-width: 1200px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.texto-anatomia {
+   margin-top: 30px;
+   font-size: 20px;
+   text-align: justify;
+}
+
+.imagem-tiamat {
+   display: block;
+   margin: 30px auto;
+   border: solid 5px red;
+   max-width: 1200px;
+   width: 100%;
+   border-radius: 10px;
+}
+
+.titulo-lista-anatomia {
+   font-size: 20px;
+   color: red;
+}
+
+/* -------------------------Habilidades----------------------------------- */
+
+.glossario-menu,
+.glossario-lista {
+   color: aliceblue;
+   max-width: 1200px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.link-letras {
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 50px;
+   background-color: #1a171a;
+   border: solid 2px gold;
+   border-radius: 5px;
+   margin-top: 20px;
+
+
+}
+
+.link-letras a {
+   text-decoration: none;
+   color: gold;
+   font-size: 40px;
+   font-weight: bold;
+
+}
+
+.titulo-indice {
+   font-size: 30px;
+   margin-bottom: 20px;
+   color: gold;
+
+}
+
+.titulo-lista-glossario {
+   font-size: 20px;
+   color: rgb(31, 163, 224);
+}
+
+
+/* ----------------------------------FIlosofia das Cores----------------- */
+
+.imagem-introducao-filosofia {
+   width: 100%;
+   height: 650px;
+
+
+}
+
+.filosofia {
+   color: aliceblue;
+   max-width: 1200px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.titulo-lista-filosofia {
+   text-align: center;
+   font-size: 40px;
+   color: red;
+   font-family: fantasy;
+   margin-top: 30px;
+   
+}
+
+.texto-intro-filosofia {
+   margin-top: 30px;
+   margin-bottom: 30px;
+   font-size: 20px;
+   text-align: justify;
+}
+
+.ponto-forte{
+   font-weight: bold;
+   color: green;
+}
+
+.ponto-fraco{
+   font-weight: bold;
+   color: red;
+}
+
+.imagem-cores{
+   display: block;
+   width: 350px;
+   height: 350px;
+   margin: 60px auto 30px;
+   
+}
+
+.branco{
+   color: aliceblue;
+}
+
+.azul{
+   color: cornflowerblue;
+}
+
+.preto{
+   color: rgb(40, 6, 73);
+   
+}
+
+.vermelho{
+   color: red;
+}
+
+.verde{
+   color: darkgreen;
+}
+
+.video-carol-2 {
+   display: block;
+   margin: 50px auto;
+   max-width: 800px;
+   border: 4px solid gold;
+   border-radius: 4px;
+
+}
 
 
