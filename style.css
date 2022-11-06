@@ -574,6 +574,35 @@ h2.titulo-objetivo,
    color: red;
 }
 
+.nome{
+
+   color: red;
+}
+
+.custo{
+   color: rgba(33, 91, 216, 0.952);
+}
+
+.linha-tipo{
+   color: rgb(22, 196, 6);
+}
+
+.edicao{
+   color: rgb(221, 14, 221);
+}
+
+.caixa-texto{
+   color: rgba(65, 35, 197, 0.726);
+}
+
+.flavour{
+   color: aqua;
+}
+
+.poder-res{
+   color: yellow;
+}
+
 /* -------------------------Habilidades----------------------------------- */
 
 .glossario-menu,
@@ -583,6 +612,8 @@ h2.titulo-objetivo,
    width: 100%;
    margin: 0 auto;
 }
+
+
 
 .link-letras {
    display: flex;
